@@ -1,5 +1,5 @@
 # IQueryable vs IEnumerable
-在使用LINQ to Entity時，常常看到IQueryable和IEnumerable字眼，確不曉得兩者有什麼不同，簡單描述差異。
+在使用LINQ to Entity時，常看到IQueryable和IEnumerable字眼，卻不曉得兩者有什麼不同，簡單筆記兩者差異。
 ***
 # IQueryable
 - 處理遠端的資料(ex. Database)
@@ -14,6 +14,6 @@
 - Linq to Object
 
 # 常見的問題
-- 想要重組SQL卻不小心把變成實體物件的結果混入Linq to Entity的Join語句中，此時程式就有可能發生錯誤
+- 想要重組Sql指令卻不小心把變成實體物件的結果混入Linq to Entity的Join語句中，此時程式就有可能發生錯誤
 - 濫用**ToList** 造成遠端資料全部撈到記憶體中，造成效能問題
 
